@@ -41,4 +41,34 @@ Here are some ideas to get you started:
     <section>
       <h2>Tentang Kami</h2>
       <p>Ini adalah paragra
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contoh Menu Situs dengan Slot</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Beranda</a></li>
+      <li><a href="#">Tentang</a></li>
+      <li class="dropdown">
+        <a href="#">Layanan</a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Layanan 1</a></li>
+          <li><a href="#">Layanan 2</a></li>
+          <li><a href="#">Layanan 3</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <h1>Selamat Datang di Situs Kami</h1>
+
+  <p>Ini adalah paragraf contoh di halaman utama situs.</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
